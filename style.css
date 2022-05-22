@@ -52,3 +52,42 @@ button{
 button:hover{
   background-color: #6c63ffc9;
 }
+
+
+
+.jogos{
+  width: 100%;
+  margin: auto;
+}
+
+.container{
+  max-width: 95%;
+  margin: auto;
+}
+
+.content{
+  display: flex;
+  margin: auto;
+}
+
+.megaSema{
+  max-width: 350px;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgb(32,152,105);
+  background: linear-gradient(61deg, rgba(32,152,105,1) 33%, rgba(14,124,36,1) 100%);
+}
+
+.megaSema h1{
+  text-align: center;
+  color: #f2f2f2;
+  margin-bottom: 6px;
+  background: transparent;
+}
+
+.megaSema p{
+  color: #f2f2f2;
+  margin-bottom: 16px;
+  background: transparent;
+}
