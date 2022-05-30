@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Jogo Loteria</title>
 </head>
@@ -28,25 +31,24 @@
           <h1>Mega Sena</h1>
           <p>Ao clicar no botão Gerar Número, será criado seus números aleatoriamente de 1 a 60.
             Se quiser mais números, basta clicar no botão novamente.</p>
-          <button onclick="generate()">Gerar Numeros</button>
+          <button onclick="generateSena()" class="generateNum">Gerar Numeros</button>
         </div>
 
 
-        <div class="megaSema">
-          <h1>Mega Sena</h1>
+        <div class="lotoFacil">
+          <h1>Loto Fácil</h1>
           <p>Ao clicar no botão Gerar Número, será criado seus números aleatoriamente de 1 a 60.
             Se quiser mais números, basta clicar no botão novamente.</p>
-          <button onclick="generate()">Gerar Numeros</button>
+          <button onclick="generateFacil()" class="generateNum">Gerar Numeros</button>
         </div>
 
 
 
-        <div class="megaSema">
-          <h1>Mega Sena</h1>
+        <div class="quina">
+          <h1>Quina</h1>
           <p>Ao clicar no botão Gerar Número, será criado seus números aleatoriamente de 1 a 60.
             Se quiser mais números, basta clicar no botão novamente.</p>
-          <button onclick="generate()">Gerar Numeros</button>
-          <div class="numberMega"></div>
+          <button onclick="generateQuina()" class="generateNum">Gerar Numeros</button>
         </div>
       </div>
     </div>

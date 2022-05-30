@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color:#222222;
+  font-family: 'Roboto', sans-serif;
 }
 
 li, a, button{
@@ -84,9 +85,77 @@ button:hover{
   color: #f2f2f2;
   margin-bottom: 6px;
   background: transparent;
+  margin-bottom: 20px;
 }
 
 .megaSema p{
+  color: #f2f2f2;
+  margin-bottom: 16px;
+  background: transparent;
+}
+
+.generateNum{
+  background-color: #f2f2f2;
+  color: #222222;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.generateNum:hover{
+  background-color: #cacaca;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.newNumber{
+  background: transparent;
+}
+
+
+
+.lotoFacil{
+  max-width: 350px;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgb(233,9,217);
+  background: linear-gradient(61deg, rgba(233,9,217,1) 33%, rgba(147,9,137,1) 100%);
+}
+
+.lotoFacil h1{
+  text-align: center;
+  color: #f2f2f2;
+  margin-bottom: 6px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.lotoFacil p{
+  color: #f2f2f2;
+  margin-bottom: 16px;
+  background: transparent;
+}
+
+
+
+
+.quina{
+  max-width: 350px;
+  margin: auto;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgb(99,45,235);
+  background: linear-gradient(61deg, rgba(99,45,235,1) 33%, rgba(38,0,133,1) 100%);
+}
+
+.quina h1{
+  text-align: center;
+  color: #f2f2f2;
+  margin-bottom: 6px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.quina p{
   color: #f2f2f2;
   margin-bottom: 16px;
   background: transparent;
