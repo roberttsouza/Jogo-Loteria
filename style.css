@@ -22,6 +22,7 @@ header{
 
 .logo{
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .navLinks{
@@ -94,6 +95,15 @@ button:hover{
   background: transparent;
 }
 
+.megaSema h3{
+  color: #222222;
+  margin-bottom: 16px;
+  background: #f1f1f1;
+  padding: 10px 1px;
+  border-radius: 50px;
+  font-size: 17px;
+  text-align: center;
+}
 .generateNum{
   background-color: #f2f2f2;
   color: #222222;
@@ -134,6 +144,15 @@ button:hover{
   margin-bottom: 16px;
   background: transparent;
 }
+.lotoFacil h3{
+  color: #222222;
+  margin-bottom: 16px;
+  background: #f1f1f1;
+  padding: 10px 1px;
+  border-radius: 50px;
+  font-size: 17px;
+  text-align: center;
+}
 
 
 
@@ -159,4 +178,14 @@ button:hover{
   color: #f2f2f2;
   margin-bottom: 16px;
   background: transparent;
+}
+
+.quina h3{
+  color: #222222;
+  margin-bottom: 16px;
+  background: #f1f1f1;
+  padding: 10px 1px;
+  border-radius: 50px;
+  font-size: 17px;
+  text-align: center;
 }

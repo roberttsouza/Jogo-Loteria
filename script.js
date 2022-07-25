@@ -13,7 +13,7 @@ function generateSena(max,quant) {
   selElement.appendChild(newElement);
 
 
-  newElement.innerHTML = `<h1>${numeroS}</h1>`;
+  newElement.innerHTML = `<h3>${numeroS}</h3>`;
   console.log(numeroS)
   return;
 };
@@ -36,7 +36,7 @@ function generateFacil(max,quant) {
     selElement.appendChild(newElement);
 
 
-    newElement.innerHTML = `<h1>${numeroS}</h1>`;
+    newElement.innerHTML = `<h3>${numeroS}</h3>`;
     console.log(numeroS)
     return;
 };
@@ -58,7 +58,7 @@ function generateFacil(max,quant) {
     selElement.appendChild(newElement);
 
 
-    newElement.innerHTML = `<h1>${numeroS}</h1>`;
+    newElement.innerHTML = `<h3>${numeroS}</h3>`;
     console.log(numeroS)
     return;
 };
