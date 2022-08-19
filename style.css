@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color:#222222;
+  background-color:#121212;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -52,7 +52,7 @@ button{
 }
 
 button:hover{
-  background-color: #6c63ffc9;
+  background-color: #1f1f1f;
 }
 
 
@@ -64,12 +64,17 @@ button:hover{
 
 .container{
   max-width: 95%;
+  height: 100hv;
   margin: auto;
 }
 
 .content{
   display: flex;
   margin: auto;
+  padding: 50px 0;
+  background-color:#141414d1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 18px;
 }
 
 .megaSema{
@@ -77,38 +82,47 @@ button:hover{
   margin: auto;
   padding: 10px 15px;
   border-radius: 10px;
-  background: rgb(32,152,105);
-  background: linear-gradient(61deg, rgba(32,152,105,1) 33%, rgba(14,124,36,1) 100%);
+  background: #1e1e1e;
+  
 }
 
 .megaSema h1{
   text-align: center;
   color: #f2f2f2;
-  margin-bottom: 6px;
   background: transparent;
-  margin-bottom: 20px;
+}
+
+.markMega{
+  width: 120px;
+  height: 3px;
+  border-radius: 5px;
+  background: #006600;
+  margin:5px auto;
+  margin-bottom: 25px;
 }
 
 .megaSema p{
   color: #f2f2f2;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   background: transparent;
 }
 
 .megaSema h3{
-  color: #222222;
+  position: relative;
+  color: #006600;
   margin-bottom: 16px;
   background: #f1f1f1;
   padding: 10px 1px;
   border-radius: 50px;
   font-size: 17px;
   text-align: center;
+  word-spacing: 15px;
 }
 .generateNum{
   background-color: #f2f2f2;
   color: #222222;
   margin-bottom: 20px;
-  border-radius: 12px;
+  border-radius: 6px;
 }
 .generateNum:hover{
   background-color: #cacaca;
@@ -119,33 +133,52 @@ button:hover{
 .newNumber{
   background: transparent;
 }
+.containerNewNumberMega{
+  background: transparent;
+  max-height: 130px;
+  overflow-y: scroll;
+}
 
-
+.containerNewNumberMega::-webkit-scrollbar {
+  background: #141414d1;  
+  border-radius: 50px;
+  width: 10px;
+}
+.containerNewNumberMega::-webkit-scrollbar-thumb {
+  background-color: #6C63FF;  
+  border-radius: 20px;     
+}
 
 .lotoFacil{
   max-width: 350px;
   margin: auto;
   padding: 10px 15px;
   border-radius: 10px;
-  background: rgb(233,9,217);
-  background: linear-gradient(61deg, rgba(233,9,217,1) 33%, rgba(147,9,137,1) 100%);
+  background: #1e1e1e;
 }
 
 .lotoFacil h1{
   text-align: center;
   color: #f2f2f2;
-  margin-bottom: 6px;
   background: transparent;
-  margin-bottom: 20px;
+}
+
+.markFacil{
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background: #8a2be2;
+  margin:5px auto;
+  margin-bottom: 25px;
 }
 
 .lotoFacil p{
   color: #f2f2f2;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   background: transparent;
 }
 .lotoFacil h3{
-  color: #222222;
+  color: #8a2be2;
   margin-bottom: 16px;
   background: #f1f1f1;
   padding: 10px 1px;
@@ -153,8 +186,21 @@ button:hover{
   font-size: 17px;
   text-align: center;
 }
+.containerNewNumberFacil{
+  background: transparent;
+  max-height: 130px;
+  overflow-y: scroll;
+}
 
-
+.containerNewNumberFacil::-webkit-scrollbar {
+  background: #141414d1;  
+  border-radius: 50px;
+  width: 10px;
+}
+.containerNewNumberFacil::-webkit-scrollbar-thumb {
+  background-color: #6C63FF;  
+  border-radius: 20px;     
+}
 
 
 .quina{
@@ -162,30 +208,52 @@ button:hover{
   margin: auto;
   padding: 10px 15px;
   border-radius: 10px;
-  background: rgb(99,45,235);
-  background: linear-gradient(61deg, rgba(99,45,235,1) 33%, rgba(38,0,133,1) 100%);
+  background: #1e1e1e;
 }
 
 .quina h1{
   text-align: center;
   color: #f2f2f2;
-  margin-bottom: 6px;
   background: transparent;
-  margin-bottom: 20px;
+}
+
+.markQuina{
+  width: 60px;
+  height: 3px;
+  border-radius: 5px;
+  background: #2d57e2;
+  margin:5px auto;
+  margin-bottom: 25px;
 }
 
 .quina p{
   color: #f2f2f2;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   background: transparent;
 }
 
 .quina h3{
-  color: #222222;
+  color: #2d57e2;
   margin-bottom: 16px;
   background: #f1f1f1;
   padding: 10px 1px;
   border-radius: 50px;
   font-size: 17px;
   text-align: center;
+}
+
+.containerNewNumberQuina{
+  background: transparent;
+  max-height: 130px;
+  overflow-y: scroll;
+}
+
+.containerNewNumberQuina::-webkit-scrollbar {
+  background: #141414d1;  
+  border-radius: 50px;
+  width: 10px;
+}
+.containerNewNumberQuina::-webkit-scrollbar-thumb {
+  background-color: #6C63FF;  
+  border-radius: 20px;     
 }

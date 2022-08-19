@@ -9,7 +9,7 @@ function generateSena(max,quant) {
   const newElement = document.createElement('div');
   newElement.className = "newNumber";
   
-  const selElement = document.querySelector('.megaSema');
+  const selElement = document.querySelector('.containerNewNumberMega');
   selElement.appendChild(newElement);
 
 
@@ -32,7 +32,7 @@ function generateFacil(max,quant) {
     const newElement = document.createElement('div');
     newElement.className = "newNumber";
     
-    const selElement = document.querySelector('.lotoFacil');
+    const selElement = document.querySelector('.containerNewNumberFacil');
     selElement.appendChild(newElement);
 
 
@@ -54,7 +54,7 @@ function generateFacil(max,quant) {
     const newElement = document.createElement('div');
     newElement.className = "newNumber";
     
-    const selElement = document.querySelector('.quina');
+    const selElement = document.querySelector('.containerNewNumberQuina');
     selElement.appendChild(newElement);
 
 
