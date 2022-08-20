@@ -69,7 +69,8 @@ button:hover{
 }
 
 .content{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   padding: 50px 0;
   background-color:#141414d1;
@@ -256,4 +257,17 @@ button:hover{
 .containerNewNumberQuina::-webkit-scrollbar-thumb {
   background-color: #6C63FF;  
   border-radius: 20px;     
+}
+
+
+
+
+@media (min-width: 300px) {
+  .content{
+    grid-template-columns: 1fr;
+  }
+  .megaSema,.lotoFacil,.quina {
+    max-width: 340px;
+    margin-bottom: 20px;
+  }
 }
